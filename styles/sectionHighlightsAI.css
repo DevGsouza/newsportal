@@ -1,0 +1,53 @@
+.highlightsAI {
+  width: 70rem;
+  border-top: 1px solid var(--bg-title);
+  padding-top: 1.2rem;
+  margin-bottom: 6rem;
+}
+
+#secondNav {
+  display: flex;
+  margin-bottom: 2.4rem;
+  justify-content: space-between;
+}
+
+#secondNav a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  color: var(--text-color-secondary);
+}
+
+#secondNav span,
+.announcement span {
+  font: var(--font-link);
+}
+
+.imageHighlight {
+  width: 17.6rem;
+  height: 17.6rem;
+}
+
+.space {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+  align-items: center;
+}
+
+.space .paragraph {
+
+  color: var(--text-color-secondary);
+  font: var(--font-paragraph);
+  margin-top: 1rem;
+}
+
+.divisionPage {
+  display: flex;
+  gap: 3.2rem;
+}
+
+article img {
+  border-radius: 5px;
+}

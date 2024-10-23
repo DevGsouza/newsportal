@@ -1,0 +1,30 @@
+header .primary {
+  display: flex;
+  align-items: center;
+  padding-block: 2.6rem;
+  gap: 45rem;
+}
+
+.primary a {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  color: var(--text-color-primary);
+  font: var(--font-headingTwo);
+}
+
+.primary a:nth-child(3){
+  flex-direction: row-reverse;
+}
+
+.primary h1 {
+  font: var(--font-headingOne);
+  color: var(--color-title);
+  min-width: 16rem;
+}
+
+main {
+  margin-top: 4rem;
+}
+

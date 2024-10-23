@@ -1,0 +1,12 @@
+.secondary ul {
+  display: flex;
+  list-style: none;
+  gap: 9.5rem;
+  padding-block: 1.4rem;
+}
+
+.secondary ul a {
+  color: var(--text-color-secondary);
+  font: var(--font-link)
+}
+
